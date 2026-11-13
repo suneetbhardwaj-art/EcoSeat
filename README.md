@@ -1,4 +1,4 @@
-# 🌱 EcoSeat — Carbon Credits for Clean, Shared Commutes in Delhi
+# EcoSeat — Carbon Credits for Clean, Shared Commutes in Delhi
 
 **Team Brahmastra** · The Corporate Glitch ’26 – Delhi Edition (Builders Hub × Paytm, Noida)
 **Track:** Smart Cities & Urban Innovation
@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Delhi’s commuters get no reward for sharing rides or travelling clean, and no penalty for driving alone in petrol cars. Without a per-person credit system, empty seats and road pollution keep growing.
 
@@ -21,7 +21,7 @@ Delhi’s commuters get no reward for sharing rides or travelling clean, and no 
 
 ---
 
-## 💡 Our Solution: EcoSeat
+## Our Solution: EcoSeat
 
 EcoSeat is a **carbon-credit wallet** that scores every trip (car, two-wheeler, metro, bus, cycle or walk) by **CO₂ emitted per person per km**.
 
@@ -33,7 +33,7 @@ The key idea: **we reward filled seats and clean modes, not just owning a certai
 
 ---
 
-## 🧮 How Credits Are Calculated
+## How Credits Are Calculated
 
 ### The formula
 
@@ -97,7 +97,7 @@ Below the target → **earn credits**. Above the target → **lose credits**.
 
 ---
 
-## 🔄 How It Works
+## How It Works
 
 ```mermaid
 flowchart LR
@@ -122,7 +122,7 @@ Later this can be replaced by a machine-learning anomaly model trained on real t
 
 ---
 
-## 🛠️ Tech Stack (for the 8-hour build)
+## Tech Stack (for the 8-hour build)
 
 | Layer | Tools |
 |---|---|
@@ -167,7 +167,7 @@ ecoseat/
 
 ---
 
-## 📈 Expected Impact
+## Expected Impact
 
 - **~80% less CO₂ per person** when a solo petrol commute becomes a 4-person EV ride (1.54 kg → 0.27 kg for a 10 km trip).
 - **Fewer cars on the road:** 4 commuters in 1 car means less congestion.
@@ -176,7 +176,7 @@ ecoseat/
 
 ---
 
-## 🆚 How We Compare
+## How We Compare
 
 | | Rewards sharing | Counts grid CO₂ | Daily incentive |
 |---|---|---|---|
@@ -187,7 +187,7 @@ ecoseat/
 
 ---
 
-## ⚠️ Challenges and Limitations
+## Challenges and Limitations
 
 - **Fake carpools:** handled by QR join and rule-based checks; ML model later.
 - **Vehicle data:** start with user-uploaded RC details; connect to registry APIs later.
@@ -197,7 +197,7 @@ ecoseat/
 
 ---
 
-## 🚀 Roadmap
+## Roadmap
 
 - **Grand Finale (21 Nov 2026):** credit engine, QR trip join, wallet, leaderboard, city simulator.
 - **Next:** React Native mobile app, real GPS matching, ML fraud model.
@@ -205,7 +205,7 @@ ecoseat/
 
 ---
 
-## 📚 References
+## References
 
 - Central Electricity Authority, *CO₂ Baseline Database for the Indian Power Sector* (FY 2023-24 weighted average, RE-adjusted: 0.727 t CO₂/MWh).
 - *Economic Survey of Delhi 2025–26*: 87.61 lakh motor vehicles; 522 vehicles per 1,000 people.
@@ -215,7 +215,7 @@ ecoseat/
 
 ---
 
-## 👥 Team Brahmastra
+## Team Brahmastra
 
 - **Gunjan Baid**
 - **Suneet Bhardwaj**
@@ -224,6 +224,6 @@ Bharati Vidyapeeth’s College of Engineering
 
 ---
 
-## 🤖 AI Tools Disclosure
+## AI Tools Disclosure
 
 Claude (Anthropic) was used to help research, draft the presentation and write this README, as required by the hackathon rules.
